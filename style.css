@@ -7,6 +7,29 @@ section {
   margin-bottom: 130px;
 }
 
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 700px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -18,6 +41,7 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
 /* style for Top Banner Section */
 
 .top-banner {
@@ -28,16 +52,6 @@ input[type="number"] {
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% 100%;
-}
-
-h1 {
-  font-size: 65px;
-  font-weight: 700;
-}
-
-p {
-  font-size: 18px;
-  margin-bottom: 30px;
 }
 
 .link-button {
@@ -54,16 +68,18 @@ p {
 
 /* style for Donate Today Section  */
 
-.donate-area {
+.donate-today-area {
   text-align: center;
+}
+.donate-area-header {
+  margin: 0 340px 30px;
+}
+
+.select-amount-area {
   margin-left: 290px;
   margin-right: 290px;
 }
 
-h2 {
-  font-size: 45px;
-  font-weight: 700px;
-}
 .select-amount {
   display: flex;
   margin-bottom: 50px;
@@ -96,4 +112,55 @@ h2 {
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: solid;
+}
+
+/* Style for donate Plan section */
+.donate-plan-area {
+  text-align: center;
+}
+
+.donate-plans {
+  display: flex;
+  align-items: justify;
+}
+
+.donate-plan-item {
+  padding: 50px 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.donate-plan-item p {
+  font-size: 16px;
+}
+
+#food-plan {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+
+#shelter-plan {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+
+#education-plan {
+  background-color: #fff4d6;
+}
+
+/* Style for footer section */
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 40px 0;
+}
+
+footer h3 {
+  color: #ff5959;
+}
+
+footer p {
+  color: #d9dbe1;
+  font-size: 14px;
 }
