@@ -43,3 +43,36 @@ p {
 
 /* style for Donate Today Section  */
 
+.donate-area {
+  text-align: center;
+  padding: 0 290px;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 700px;
+  color: black;
+}
+.select-amount {
+  display: flex;
+  margin-bottom: 50px;
+}
+.amount-item {
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  width: 130px;
+  font-weight: 700;
+  color: #707070;
+  background-color: #fafafa;
+  padding: 45px 0;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+#default-amount-item {
+  color: #ff5959;
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+}
