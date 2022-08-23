@@ -30,6 +30,11 @@ p {
   margin-bottom: 40px;
 }
 
+.section-header-text {
+  margin: 0 340px 30px;
+  text-align: center;
+}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -68,16 +73,10 @@ input[type="number"] {
 
 /* style for Donate Today Section  */
 
-.donate-today-area {
-  text-align: center;
-}
-.donate-area-header {
-  margin: 0 340px 30px;
-}
-
 .select-amount-area {
   margin-left: 290px;
   margin-right: 290px;
+  text-align: center;
 }
 
 .select-amount {
@@ -115,9 +114,6 @@ input[type="number"] {
 }
 
 /* Style for donate Plan section */
-.donate-plan-area {
-  text-align: center;
-}
 
 .donate-plans {
   display: flex;
@@ -128,7 +124,6 @@ input[type="number"] {
   padding: 50px 25px;
   margin-left: 15px;
   margin-right: 15px;
-  text-align: left;
   border-radius: 5px;
   width: fit-content;
 }
@@ -149,6 +144,31 @@ input[type="number"] {
   background-color: #fff4d6;
 }
 
+/* style for Get my updates.   */
+.subscribe-area {
+  margin-left: 315px;
+  margin-right: 315px;
+  padding: 70px 0;
+  background-color: #fff4d6;
+  text-align: center;
+}
+
+.subscribe-email {
+  font-size: ;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 20px;
+  margin: 0;
+}
+.subscribe-button {
+  color: #ffffff;
+  padding: 20px 30px;
+  border: none;
+  background-color: #ff5959;
+  border-radius: 5px;
+  margin: 0;
+}
 /* Style for footer section */
 footer {
   background-color: black;
