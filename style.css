@@ -7,6 +7,17 @@ section {
   margin-bottom: 130px;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
 /* style for Top Banner Section */
 
 .top-banner {
@@ -45,13 +56,13 @@ p {
 
 .donate-area {
   text-align: center;
-  padding: 0 290px;
+  margin-left: 290px;
+  margin-right: 290px;
 }
 
 h2 {
   font-size: 45px;
   font-weight: 700px;
-  color: black;
 }
 .select-amount {
   display: flex;
@@ -70,9 +81,19 @@ h2 {
   border-radius: 5px;
   margin: 0 10px;
 }
-
-#default-amount-item {
+#selected-amount-item {
   color: #ff5959;
   background: #ffeeee;
   border: 2px solid #ff5959;
+}
+
+.other-amount {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+  height: 50px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
 }
